@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkButton, SolidButton } from "../components/Buttons";
+import { AnchorButton, SolidButton } from "../components/Buttons";
 
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
         coding experiences and made 16+ projects.
       </p>
 
-      <LinkButton link="hi" content="HELLO"></LinkButton>
+      <AnchorButton link="hi" content="HELLO"></AnchorButton>
       <SolidButton link="hi" content="HELLO"></SolidButton>
     </div>
   );

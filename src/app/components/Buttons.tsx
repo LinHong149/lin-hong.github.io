@@ -5,7 +5,8 @@ type ButtonProps = {
   content : string;
 }
 
-export const LinkButton : React.FC<ButtonProps> = ({link, content}) => {
+
+export const AnchorButton : React.FC<ButtonProps> = ({link, content}) => {
   return (
     <button>
         <a href={link}>{content}</a>
