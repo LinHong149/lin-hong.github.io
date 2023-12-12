@@ -1,7 +1,12 @@
 
 const Stats = () => {
   return (
-    <div>Stats</div>
+    <div>
+        // # of hackathons
+        // # of skills
+        // # of projects
+        // # of years of coding
+    </div>
   )
 }
 
