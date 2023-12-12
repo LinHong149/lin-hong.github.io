@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-9xl font-bold;
+  }
+}
+@layer components {
+  h1 {
+    @apply text-9xl font-bold;
+  }
+}
+@layer utilities {
+  h1 {
+    @apply text-9xl font-bold;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +40,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+[data-theme="dark"] .btn {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
