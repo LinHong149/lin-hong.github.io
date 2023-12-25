@@ -9,7 +9,7 @@ const Nav = () => {
             <div tabIndex={0} role="button"  className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
-            <div className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <div className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow font-lable bg-base-100 rounded-box w-52">
               <li><a>ABOUT</a></li>
               <li><a>PROJECTS</a></li>
               <li><a>EXPERIENCES</a></li>
@@ -17,10 +17,10 @@ const Nav = () => {
               <li><a>CONTACT</a></li>
             </div>
           </div>
-          <a className="btn btn-ghost text-lg">LIN HONG</a>
+          <a className="btn btn-ghost text-lg font-lable">LIN HONG</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <div className="menu menu-horizontal px-1 font-bold">
+          <div className="menu menu-horizontal px-1 font-lable">
             <li><a>ABOUT</a></li>
             <li><a>PROJECTS</a></li>
             <li><a>EXPERIENCES</a></li>
@@ -34,7 +34,7 @@ const Nav = () => {
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </label>
         <div className="navbar-end">
-          <a className="btn btn-accent">Resume</a>
+          <a className="btn bg-pink text-black font-lable">RESUME</a>
         </div>
       </div>
   )

@@ -35,9 +35,9 @@ export const AnchorButton : React.FC<ButtonProps> = ({link, contentStart, conten
     <button
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="flex items-center justify-around border w-fit"
+      className="flex items-center justify-around w-fit"
     >
-      <a href={link} className={`flex flex-row gap-0 h-8 items-center justify-center font-bold duration-150 ${isHovered? "opacity-100 ": "opacity-50"}`}>
+      <a href={link} className={`flex flex-row gap-0 h-8 items-center justify-center font-lable duration-150 ${isHovered? "opacity-100 ": "opacity-50"}`}>
         {contentStart}
         <motion.svg
           initial="hidden"

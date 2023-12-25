@@ -51,3 +51,82 @@ body {
   transition-property: height;
   transition-timing-function: ease; /* or your preferred timing function */
 }
+
+/* Bolded headers */
+.font-header1-bold {
+  font-weight: bold;
+  font-size: 8rem;
+}
+.font-header2-bold {
+  font-weight: bold;
+  font-size: 7rem;
+}
+.font-header3-bold {
+  font-weight: bold;
+  font-size: 6rem;
+}
+.font-header4-bold {
+  font-weight: bold;
+  font-size: 5rem;
+}
+.font-header5-bold {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.font-header6-bold {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.font-header7-bold {
+  font-weight: bold;
+  font-size: 2rem;
+}
+/* Normal Headers */
+.font-header1 {
+  font-size: 8rem;
+}
+.font-header2 {
+  font-size: 7rem;
+}
+.font-header3 {
+  font-size: 6rem;
+}
+.font-header4 {
+  font-size: 5rem;
+}
+.font-header5 {
+  font-size: 4rem;
+}
+.font-header6 {
+  font-size: 3rem;
+}
+.font-header7 {
+  font-size: 2rem;
+}
+/* Paragraph */
+font.paragraph-bigger {
+  font-size: 2rem;
+}
+font.paragraph {
+  font-size: 1.5rem;
+}
+font.paragraph-smaller {
+  font-size: 1.25rem;
+}
+font.paragraph-tiny {
+  font-size: 1rem;
+}
+/* Special */
+.font-link {
+  text-decoration: underline;
+  color: "#F6F6F8";
+  font-size: 1.5rem;
+}
+.font-lable-bigger {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.font-lable {
+  font-weight: bold;
+  font-size: 1rem;
+}

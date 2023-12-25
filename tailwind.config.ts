@@ -15,6 +15,10 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        "white": "#F6F6F8",
+        "black": "#1C2021",
+      },
     },
   },
   daisyui: {
@@ -26,14 +30,16 @@ const config: Config = {
           "base-100": "#1C2021", // Black
           "base-content": "#F6F6F8", // White
 
-          "primary": "#62BAF3", // Blue
-          "secondary": "#838CF1", // Purple
-          "info": "#4BA2E3", // Blue
-          "success": "#D672A8", // Green
-          "warning": "#ECC164", // Yellow
-          "accent": "#D672A8", // Pink
-          "error": "#EA7887", // Red
-
+          // custom themes
+          ".bg-cyan": {
+            "background-color": "#97D4D7"
+          },
+          ".bg-pink": {
+            "background-color": "#F1A1CC"
+          },
+          ".bg-orange": {
+            "background-color": "#FFD19B"
+          },
         },
       },
       "light"
