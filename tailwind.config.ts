@@ -40,6 +40,21 @@ const config: Config = {
           ".bg-orange": {
             "background-color": "#FFD19B"
           },
+          ".text-cyan": {
+            "color": "#97D4D7"
+          },
+          ".text-pink": {
+            "color": "#F1A1CC"
+          },
+          ".text-orange": {
+            "color": "#FFD19B"
+          },
+          ".gradientText": {
+            "background": "linear-gradient(to right, #F1A1CC, #FFD19B)",
+            "-webkit-background-clip": "text",
+            "color": "transparent",
+            "display": "inline",
+          }
         },
       },
       "light"
