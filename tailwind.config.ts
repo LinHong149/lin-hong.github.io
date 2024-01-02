@@ -49,12 +49,12 @@ const config: Config = {
           ".text-orange": {
             "color": "#FFD19B"
           },
-          ".gradientText": {
-            "background": "linear-gradient(to right, #F1A1CC, #FFD19B)",
+          ".text-gradient-white-black": {
+            "background": "linear-gradient(to bottom, #F6F6F8 30%, transparent)",
             "-webkit-background-clip": "text",
             "color": "transparent",
             "display": "inline",
-          }
+          },
         },
       },
       "light"

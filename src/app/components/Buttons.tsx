@@ -1,6 +1,5 @@
-import React from "react"
-import { useState } from "react"
-import { motion } from "framer-motion"
+import React, { useState, useRef } from 'react';
+import { motion, useMotionValue, useTransform } from 'framer-motion';
 
 type ButtonProps = {
   link : string;
@@ -8,7 +7,6 @@ type ButtonProps = {
   contentStart : string;
   contentEnd : string;
 }
-
 
 export const AnchorButton : React.FC<ButtonProps> = ({link, contentStart, contentEnd}) => {
   const [isHovered, setIsHovered] = useState(false);

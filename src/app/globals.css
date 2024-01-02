@@ -55,7 +55,7 @@ body {
 /* Bolded headers */
 .font-header1-bold {
   font-weight: bold;
-  font-size: 8rem;
+  font-size: 9rem;
 }
 .font-header2-bold {
   font-weight: bold;
@@ -129,4 +129,19 @@ font.paragraph-tiny {
 .font-lable {
   font-weight: bold;
   font-size: 1rem;
+}
+
+
+.text-gradient-pink-orange {
+  background: linear-gradient(to right, #F1A1CC, #FFD19B);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: "inline";
+}
+
+.text-gradient-cyan-pink {
+  background: linear-gradient(to right, #97D4D7, #F1A1CC);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: "inline";
 }

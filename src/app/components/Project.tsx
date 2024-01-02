@@ -2,7 +2,9 @@
 const Project = () => {
   return (
     <div>
-        // Incorporate animation from Instagram inspiration
+      {/* Project Content */}
+      <div className=""></div>
+      
     </div>
   )
 }
