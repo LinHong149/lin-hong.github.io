@@ -9,8 +9,8 @@ import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
-    <main className="flex bg-base-100 min-h-screen flex-col items-center justify-between">
-      <div className="m-0 p-0  w-screen h-screen relative flex flex-col">
+    <main className="flex bg-base-100 min-h-screen flex-col items-center justify-between [&>*]:px-36">
+      <div className="m-0 w-screen h-screen relative flex flex-col">
         <Nav />
         <Hero />
       </div>

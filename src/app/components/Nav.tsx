@@ -3,8 +3,8 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className="navbar flex justify-between bg-base-100 top-0 pt-6 pb-2 px-16 z-50">
-        <div className="navbar-start w-fit">
+    <div className="navbar flex justify-between bg-base-100 top-0 pt-6 pb-2 z-50 ">
+        <div className="navbar-start w-fit p-0 ">
           <div className="dropdown">
             <div tabIndex={0} role="button"  className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -17,7 +17,7 @@ const Nav = () => {
               <li><a>CONTACT</a></li>
             </div>
           </div>
-          <a className="btn btn-ghost text-lg font-lable">LIN HONG</a>
+          <a className="text-lg font-lable p-0 m-0 w-fit ">LIN HONG</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <div className="menu menu-horizontal px-1 font-lable [&>*]:px-4 ">

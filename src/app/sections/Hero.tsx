@@ -5,7 +5,7 @@ import { AnchorButton, SolidButton } from "../components/Buttons";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-between gap-16 w-full h-full px-16 pt-[10%] pb-[5%]">
+    <div className="flex flex-col justify-between gap-16 w-full h-full pt-[10%] pb-[5%]">
 
       <div className="flex flex-col gap-10">
         <h1 className="">
