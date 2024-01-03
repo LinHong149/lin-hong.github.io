@@ -4,6 +4,7 @@ import { ExperienceInfo } from "../constants"
 const Experiences = () => {
   return (
     <div>
+      <Experience/>
 
     </div>
   )

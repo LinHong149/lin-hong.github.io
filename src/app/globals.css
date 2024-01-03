@@ -104,16 +104,16 @@ body {
   font-size: 2rem;
 }
 /* Paragraph */
-font.paragraph-bigger {
+.font-paragraph-bigger {
   font-size: 2rem;
 }
-font.paragraph {
+.font-paragraph {
   font-size: 1.5rem;
 }
-font.paragraph-smaller {
+.font-paragraph-smaller {
   font-size: 1.25rem;
 }
-font.paragraph-tiny {
+.font-paragraph-tiny {
   font-size: 1rem;
 }
 /* Special */
