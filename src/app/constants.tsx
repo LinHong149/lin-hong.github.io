@@ -20,7 +20,7 @@ export const ExperienceInfo = [
         "position": "Co-captain",
         "date": "Sept 2022 - Present",
         "location": "Toronto, ON",
-        "point": [
+        "experiences": [
             "l",
             "e",
         ],
@@ -30,7 +30,7 @@ export const ExperienceInfo = [
         "position": "Co-captain",
         "date": "Sept 2022 - Present",
         "location": "Toronto, ON",
-        "point": [
+        "experiences": [
             "l",
             "e",
         ],
@@ -40,7 +40,7 @@ export const ExperienceInfo = [
         "position": "Co-captain",
         "date": "Sept 2022 - Present",
         "location": "Toronto, ON",
-        "point": [
+        "experiences": [
             "l",
             "e",
         ],
