@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex flex-col gap-10">
         <h1 className="">
           <span className="font-header1-bold text-gradient-white-black">Hi. I'm </span>
-          <span className="text-gradient-pink-orange after::text-gradient-pink-orange"> Lin Hong, </span>
+          <span className="text-gradient-pink-orange font-header1-bold after::text-gradient-pink-orange"> Lin Hong, </span>
           <span className="font-header1-bold text-gradient-white-black"><br/>a Software Engineer</span>
         </h1>
         <p className="font-header7">

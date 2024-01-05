@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  h1 {
-    @apply text-9xl font-bold;
-  }
-}
-@layer components {
-  h1 {
-    @apply text-9xl font-bold;
-  }
-}
-@layer utilities {
-  h1 {
-    @apply text-9xl font-bold;
-  }
-}
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
