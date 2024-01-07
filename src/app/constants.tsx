@@ -1,3 +1,4 @@
+import Test from "src/app/assets/ImageTest.png"
 
 export const projectInfo = [
     {
@@ -44,5 +45,13 @@ export const ExperienceInfo = [
             "l",
             "e",
         ],
+    },
+]
+
+export const skillsInfo = [
+    {
+        "name": "name",
+        "image": Test,
+        "link": "",
     },
 ]
