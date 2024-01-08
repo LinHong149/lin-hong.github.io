@@ -17,8 +17,7 @@ export const projectInfo = [
 
 export const ExperienceInfo = [
     {
-        "company": "Robotics",
-        "position": "Co-captain",
+        "company": "Robotics Co-captain",
         "date": "Sept 2022 - Present",
         "location": "Toronto, ON",
         "experiences": [
@@ -28,7 +27,6 @@ export const ExperienceInfo = [
     },
     {
         "company": "Robotics",
-        "position": "Co-captain",
         "date": "Sept 2022 - Present",
         "location": "Toronto, ON",
         "experiences": [
@@ -38,7 +36,6 @@ export const ExperienceInfo = [
     },
     {
         "company": "Robotics",
-        "position": "Co-captain",
         "date": "Sept 2022 - Present",
         "location": "Toronto, ON",
         "experiences": [

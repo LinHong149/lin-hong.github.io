@@ -129,3 +129,10 @@ body {
   color: transparent;
   display: "inline";
 }
+
+.text-gradient-cyan-pink-orange {
+  background: linear-gradient(to right, #97D4D7, #F1A1CC, #FFD19B);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: "inline";
+}

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Experiences = () => {
   return (
-    <div className='border flex flex-col gap-20 w-full'>
+    <div className='flex flex-col gap-96 w-full'>
       {ExperienceInfo.map((item, index) => (
         <div key={index} className={`flex ${index % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'} gap-16`}> {/* alternates sides */}
           <Image 
@@ -18,7 +18,7 @@ const Experiences = () => {
           <div className='flex flex-col gap-4 w-[120%] '>
             <div className='flex flex-col gap-2 [&>*]:leading-none'>  
               <p className='font-header5'>I have experience as a</p>
-              <p className='font-header5-bold'>{item.company}</p>
+              <p className='font-header5-bold text-gradient-cyan-pink-orange w-fit'>{item.company}</p>
             </div>
             <div className='flex flex-row gap-2'>
               <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.location}</div>
