@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="flex flex-col justify-between gap-16 w-full h-full pt-[10%] pb-[5%]">
 
       <div className="flex flex-col gap-10">
-        <h1 className="">
+        <h1 className="[&>*]:leading-tight">
           <span className="font-header1-bold text-gradient-white-black">Hi. I'm </span>
           <span className="text-gradient-pink-orange font-header1-bold after::text-gradient-pink-orange"> Lin Hong, </span>
           <span className="font-header1-bold text-gradient-white-black"><br/>a Software Engineer</span>
