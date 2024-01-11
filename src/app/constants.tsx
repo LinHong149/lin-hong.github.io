@@ -13,6 +13,10 @@ export const projectInfo = [
         "name": "Bill-in-Bytes",
         "description": "A practical application that make paper receipts digital, allowing effortless expense and tax handling",
     },
+    {
+        "name": "FIRST Tech Challenge",
+        "description": "A robot built for the FIRST Tech Challenge in a team of 15 with object recognition and autonomous features",
+    },
 ]
 
 export const ExperienceInfo = [

@@ -9,12 +9,14 @@ const Projects = () => {
   });
 
   return (
-    <div>
-      <Project></Project>
-
+    <div className="h-screen">
       {/* Project Info */}
-      <div className="flex flex-col">
-        <p className="font-lable-bigger text-gradient-cyan-pink">PROJECT</p>
+      <div className="h-screen w-screen">
+
+        <div className="flex flex-col">
+          <p className="font-lable-bigger text-gradient-cyan-pink">PROJECT</p>
+          <p>{projectInfo}</p>
+        </div>
       </div>
     </div>
   )
