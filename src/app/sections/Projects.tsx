@@ -13,9 +13,10 @@ const Projects = () => {
       {/* Project Info */}
       <div className="h-screen w-screen">
 
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center [&>*]:leading-tight">
           <p className="font-lable-bigger text-gradient-cyan-pink">PROJECT</p>
-          {/* <p>{projectInfo}</p> */}
+          <p className="font-header2-bold uppercase">projectName</p>
+          <p className="font-paragraph">project description</p>
         </div>
       </div>
     </div>
