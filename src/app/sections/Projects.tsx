@@ -15,7 +15,7 @@ const Projects = () => {
 
         <div className="flex flex-col">
           <p className="font-lable-bigger text-gradient-cyan-pink">PROJECT</p>
-          <p>{projectInfo}</p>
+          {/* <p>{projectInfo}</p> */}
         </div>
       </div>
     </div>
