@@ -9,7 +9,7 @@ const Projects = () => {
   });
 
   return (
-    <div className="h-screen">
+    <div className="h-screen border">
       {/* Project Info */}
       <div className="h-screen w-screen">
 

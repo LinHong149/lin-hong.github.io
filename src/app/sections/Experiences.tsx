@@ -7,7 +7,7 @@ const Experiences = () => {
       {ExperienceInfo.map((item, index) => (
         <div key={index} className={`flex ${index % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'} gap-16`}> {/* alternates sides */}
           <Image 
-            className='object-cover'
+            className='object-cover rounded-[3rem]'
             loading="lazy" 
             width="500" 
             height="500" 
