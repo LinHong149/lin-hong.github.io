@@ -136,3 +136,43 @@ body {
   color: transparent;
   display: "inline";
 }
+
+
+/* SHAPE */
+.hexagon::before {
+  content: "";
+  width: 100%;
+  padding-top: 86.6%; /* Aspect ratio for the hexagon */
+  float: left;
+  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  border-radius: 8px; /* Adjust the border-radius as needed */
+}
+
+
+@keyframes scrollSlow {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
+}
+
+@keyframes scrollMedium {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-150vh);
+  }
+}
+
+@keyframes scrollFast {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200vh);
+  }
+}

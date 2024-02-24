@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Experiences = () => {
   return (
-    <div className='flex flex-col gap-96 w-full'>
+    <div className='flex flex-col px-parent gap-96 w-full'>
       {ExperienceInfo.map((item, index) => (
         <div key={index} className={`flex ${index % 2 !== 0 ? 'flex-row-reverse' : 'flex-row'} gap-16`}> {/* alternates sides */}
           <Image 

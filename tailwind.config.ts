@@ -19,6 +19,9 @@ const config: Config = {
         "white": "#F6F6F8",
         "black": "#1C2021",
       },
+      padding: {
+        "parent" : "5rem"
+      }
     },
   },
   daisyui: {

@@ -4,29 +4,12 @@ import Test from "src/app/assets/ImageTest.png"
 
 const Skills = () => {
   return (
-    <div>
-      <div className="flex flex-col gap-4 [&>*]:leading-none">
-        <p className="">These are all my technical skills</p>
-        <p className="">These are all tool's I've used in my projects</p>
-      </div>
-
-        {skillsInfo.map(({name, image, link}) => (
-          <a href={link} key={name}>
-            <Image src={image} alt={name} width="500" height="500"></Image>
-          </a>
+    <div className=" px-parent">
+        {skillsInfo.map(({name, image}) => (
+          <div className="flex flex-col items-center justify-center p-4 w-48 border-1 border-white bg-white bg-opacity-20 shadow-xl backdrop-filter backdrop-blur-sm rounded-3xl border border-white border-opacity-20">
+            <Image key={name} src={image} alt={name} width="500" height="500"></Image>
+          </div>
         ))}
-        {/* // map through all the skills
-        // Frontend
-        // React, html, css, js, Framer Motion, DaisyUI, tailwind, Nextjs, Vite.js
-        // Backend
-        // Python, Google cloud, OpenAI, Flask
-        // Design
-        // Figma, Adobe Photoshop
-        // Hardware
-        // Tensor, OpenCV, Roadrunner
-        // OOP
-        // Java, C++
-        // Onshape */}
     </div>
   )
 }

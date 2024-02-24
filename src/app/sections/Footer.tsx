@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <div className="w-full py-10 flex flex-col gap-2">
+    <div className="w-full py-10 flex flex-col px-parent gap-2">
       <hr className="mb-4" />
       <p className="font-lable-bigger w-fit ">LIN HONG</p>
       <div className="flex flex-row w-full justify-between ">

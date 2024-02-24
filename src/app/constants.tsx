@@ -48,11 +48,97 @@ export const ExperienceInfo = [
         ],
     },
 ]
-
 export const skillsInfo = [
     {
-        "name": "name",
+        "name": "React",
         "image": Test,
-        "link": "",
+    },
+    {
+        "name": "HTML",
+        "image": Test,
+    },
+    {
+        "name": "CSS",
+        "image": Test,
+    },
+    {
+        "name": "Javascript",
+        "image": Test,
+    },
+    {
+        "name": "DaisyUI",
+        "image": Test,
+    },
+    {
+        "name": "Tailwind",
+        "image": Test,
+    },
+    {
+        "name": "Next.js",
+        "image": Test,
+    },
+    {
+        "name": "Vite.js",
+        "image": Test,
+    },
+    {
+        "name": "Python",
+        "image": Test,
+    },
+    {
+        "name": "C++",
+        "image": Test,
+    },
+    {
+        "name": "Java",
+        "image": Test,
+    },
+    {
+        "name": "Google cloud",
+        "image": Test,
+    },
+    {
+        "name": "OpenAI",
+        "image": Test,
+    },
+    {
+        "name": "Flask",
+        "image": Test,
+    },
+    {
+        "name": "Figma",
+        "image": Test,
+    },
+    {
+        "name": "Adobe Photoshop",
+        "image": Test,
+    },
+    {
+        "name": "TensorFlow",
+        "image": Test,
+    },
+    {
+        "name": "OpenCV",
+        "image": Test,
+    },
+    {
+        "name": "Roadrunner",
+        "image": Test,
+    },
+    {
+        "name": "Visual Studio Code",
+        "image": Test,
+    },
+    {
+        "name": "Android Studio",
+        "image": Test,
+    },
+    {
+        "name": "Github",
+        "image": Test,
+    },
+    {
+        "name": "Postman",
+        "image": Test,
     },
 ]

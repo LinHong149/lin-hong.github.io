@@ -3,7 +3,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className="navbar flex justify-between bg-base-100 top-0 pt-6 pb-2 z-50 ">
+    <div className="navbar flex justify-between bg-base-100 top-0 pt-6 pb-2 z-50 px-parent">
         <div className="navbar-start w-fit p-0 ">
           <div className="dropdown">
             <div tabIndex={0} role="button"  className="btn btn-ghost lg:hidden">
