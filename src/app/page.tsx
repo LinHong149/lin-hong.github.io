@@ -10,7 +10,8 @@ import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
-    <Parallax className='flex min-h-screen flex-col items-center justify-between gap-96 relative overflow-hidden' pages={5} style={{ top: '0', left: '0' }}>
+    <Parallax className='flex min-h-screen flex-col items-center justify-between gap-96 relative overflow-hidden' 
+      pages={4.3} style={{ top: '0', left: '0' }}>
       <ParallaxLayer offset={0} speed={0.5}>
         <div className="flex flex-col items-center justify-between min-h-screen">
           <div className="w-screen h-screen relative flex flex-col">
@@ -20,32 +21,41 @@ export default function Home() {
         </div>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={1} speed={0.8} style={{ backgroundColor: '#805E73' }} />
-      <ParallaxLayer offset={1} speed={1} style={{ opacity: 0.5 }}>
+      {/* <ParallaxLayer offset={0.99} speed={0.8}> 
+        <div className='bg-none w-full h-[20vh]'></div>
+        <div className='bg-[#805E73] w-full h-[100vh]'></div>
+      </ParallaxLayer> */}
+      <ParallaxLayer offset={0.99} speed={1}>
+        <div className='bg-none w-full h-[34vh]'></div>
         <Projects />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={2} speed={1.2}>
+      <ParallaxLayer offset={1.9} speed={1.2}>
         <Experiences />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={3} speed={1}>
+      <ParallaxLayer offset={2.99} speed={1}>
         <Stats />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={4} speed={0.8}>
+      <ParallaxLayer offset={3} speed={0.8}>
         <Skills />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={4.5} speed={1}>
+      <ParallaxLayer offset={3.6} speed={1.2}>
         <Footer />
       </ParallaxLayer>
 
       {/* Parallax Circles */}
       <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 0.2 }}>
         <div className="absolute w-64 h-64 bg-purple-300 rounded-full blur-3xl" style={{ top: '10%', left: '10%' }}></div>
-        <div className="absolute w-48 h-48 bg-blue-300 rounded-full blur-3xl" style={{ top: '20%', right: '15%' }}></div>
         <div className="absolute w-72 h-72 bg-pink-300 rounded-full blur-3xl" style={{ bottom: '15%', left: '5%' }}></div>
+      </ParallaxLayer>
+      <ParallaxLayer offset={0} speed={1.3} style={{ opacity: 0.2 }}>
+        <div className="absolute w-52 h-52 bg-yellow-300 rounded-full blur-3xl" style={{ bottom: '-30%', left: '60%' }}></div>
+      </ParallaxLayer>
+      <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 0.2 }}>
+        <div className="absolute w-48 h-48 bg-blue-300 rounded-full blur-3xl" style={{ top: '20%', right: '15%' }}></div>
       </ParallaxLayer>
     </Parallax>
   );
