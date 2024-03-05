@@ -58,6 +58,24 @@ const config: Config = {
             "color": "transparent",
             "display": "inline",
           },
+          ".text-gradient-pink-black": {
+            "background": "linear-gradient(to bottom, #F1A1CC 30%, transparent)",
+            "-webkit-background-clip": "text",
+            "color": "transparent",
+            "display": "inline",
+          },
+          ".text-gradient-cyan-black": {
+            "background": "linear-gradient(to bottom, #97D4D7 30%, transparent)",
+            "-webkit-background-clip": "text",
+            "color": "transparent",
+            "display": "inline",
+          },
+          ".text-gradient-orange-black": {
+            "background": "linear-gradient(to bottom, #FFD19B 30%, transparent)",
+            "-webkit-background-clip": "text",
+            "color": "transparent",
+            "display": "inline",
+          },
         },
       },
       "light"
