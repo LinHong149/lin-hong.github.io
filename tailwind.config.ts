@@ -17,7 +17,7 @@ const config: Config = {
       },
       colors: {
         "white": "#F6F6F8",
-        "black": "#1C2021",
+        "black": "#18191A",
       },
       padding: {
         "parent" : "5rem"
@@ -30,7 +30,7 @@ const config: Config = {
         dark: {
           ...require("daisyui/src/theming/themes")["night"],
           "neutral": "#20293A", // Grey
-          "base-100": "#1C2021", // Black
+          "base-100": "#18191A", // Black
           "base-content": "#F6F6F8", // White
 
           // custom themes
@@ -75,6 +75,10 @@ const config: Config = {
             "-webkit-background-clip": "text",
             "color": "transparent",
             "display": "inline",
+          },
+
+          ".card-gradient-pink-cyan": {
+            "background": "linear-gradient(to bottom, rgba(241, 161, 204, 0.2), rgba(151, 212, 215, 0.2))",
           },
         },
       },

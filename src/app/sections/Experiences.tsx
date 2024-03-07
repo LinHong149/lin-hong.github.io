@@ -12,7 +12,7 @@ const Experiences = () => {
         
 
         {ExperienceInfo.map((item, index) => (
-          <div key={index} className={`flex rounded-3xl p-14 bg-white/[0.05] shadow-lg border border-white/[0.18] border-2 backdrop-blur-[3.5px]`}> 
+          <div key={index} className={`flex rounded-3xl p-14 card-gradient-pink-cyan shadow-lg backdrop-blur-[3.5px]`}> 
 
             <div className='flex flex-col gap-4 w-[120%] '>
               <div className='flex flex-col gap-2 [&>*]:leading-none'>  
@@ -20,8 +20,8 @@ const Experiences = () => {
               <p className='font-paragraph-bigger text-white rop-shadow-[0_0_10px_#F1A1CC] w-fit'>{item.position}</p>
               </div>
               <div className='flex flex-row gap-4'>
-                <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.location}</div>
                 <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.date}</div>
+                <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.location}</div>
               </div>
               <ul className='list-disc list-inside gap-4'>
                 { item.experiences.map((experience, expIndex) => (
