@@ -176,3 +176,11 @@ body {
     transform: translateY(-200vh);
   }
 }
+
+
+.card-design {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(246, 246, 248, 0.6), inset 0 35px 60px rgba(246, 246, 248, 0.24), inset 0 -6px 27px rgba(246, 246, 248, 0.2), inset 0 -35px 60px rgba(28, 32, 33, 0.1), inset 0 6px 12px rgba(246, 246, 248, 0.4);
+  backdrop-filter: blur(80px);
+  /* box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2); */
+
+}

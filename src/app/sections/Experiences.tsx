@@ -12,7 +12,7 @@ const Experiences = () => {
         
 
         {ExperienceInfo.map((item, index) => (
-          <div key={index} className={`flex rounded-3xl p-14 card-gradient-pink-cyan shadow-lg backdrop-blur-[3.5px]`}> 
+          <div key={index} className={`flex rounded-[3rem] p-14 card-design shadow-lg backdrop-blur-[3.5px]`}> 
 
             <div className='flex flex-col gap-4 w-[120%] '>
               <div className='flex flex-col gap-2 [&>*]:leading-none'>  

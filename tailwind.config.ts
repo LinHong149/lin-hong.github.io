@@ -80,6 +80,7 @@ const config: Config = {
           ".card-gradient-pink-cyan": {
             "background": "linear-gradient(to bottom, rgba(241, 161, 204, 0.2), rgba(151, 212, 215, 0.2))",
           },
+
         },
       },
       "light"
