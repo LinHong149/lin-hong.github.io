@@ -15,13 +15,13 @@ const Experiences = () => {
           <div key={index} className={`flex rounded-[3rem] p-14 card-design shadow-lg backdrop-blur-[3.5px]`}> 
 
             <div className='flex flex-col gap-4 w-[120%] '>
-              <div className='flex flex-col gap-2 [&>*]:leading-none'>  
-              <p className='font-header5-bold text-gradient-pink-black w-fit'>{item.company}</p>
-              <p className='font-paragraph-bigger text-white rop-shadow-[0_0_10px_#F1A1CC] w-fit'>{item.position}</p>
-              </div>
-              <div className='flex flex-row gap-4'>
-                <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.date}</div>
-                <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.location}</div>
+              <p className='font-header5-bold text-pink w-fit text-pink-glow leading-none'>{item.company}</p>
+              <div className="flex justify-between align-center">
+                <p className='font-paragraph-bigger text-white rop-shadow-[0_0_10px_#F1A1CC] w-fit leading-none'>{item.position}</p>
+                <div className='flex flex-row gap-4 opacity-75'>
+                  <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.date}</div>
+                  <div className='border rounded-full px-5 pt-3 pb-2.5 font-lable leading-none'>{item.location}</div>
+                </div>
               </div>
               <ul className='list-disc list-inside gap-4'>
                 { item.experiences.map((experience, expIndex) => (
