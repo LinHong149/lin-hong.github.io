@@ -3,7 +3,8 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
-import Stats from "./sections/Stats";
+import Stats from "./components/Stats";
+import AboutMe from "./sections/AboutMe";
 import Experiences from "./sections/Experiences";
 import Skills from "./sections/Skills";
 import Footer from "./sections/Footer";
@@ -11,7 +12,7 @@ import Footer from "./sections/Footer";
 export default function Home() {
   return (
     <Parallax className='flex min-h-screen flex-col items-center justify-between gap-96 relative overflow-hidden' 
-      pages={4.3} style={{ top: '0', left: '0' }}>
+      pages={10} style={{ top: '0', left: '0' }}>
       <ParallaxLayer offset={0} speed={0.5}>
         <div className="flex flex-col items-center justify-between min-h-screen">
           <div className="w-screen h-screen relative flex flex-col">
@@ -30,17 +31,30 @@ export default function Home() {
         <Experiences />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={2.4} speed={1}>
+      {/* <ParallaxLayer sticky={{start: 2.4, end: 2.9}} speed={2} >
         <Stats />
+      </ParallaxLayer> */}
+
+      <ParallaxLayer sticky={{start: 2.5, end: 5}} speed={2} >
+        <AboutMe />
       </ParallaxLayer>
 
-      <ParallaxLayer offset={3} speed={0.8}>
+      <ParallaxLayer sticky={{start: 3.5, end: 5}}>
+        <Stats number="15" stat="hackatons" rowStart="2" colStart='7'/>
+      </ParallaxLayer>
+      <ParallaxLayer sticky={{start: 4, end: 5}}>
+        <Stats number="15" stat="skills" rowStart="3" colStart='1'/>
+      </ParallaxLayer>
+      <ParallaxLayer sticky={{start: 4.5, end: 5}}>
+        <Stats number="15" stat="projects" rowStart="4" colStart='8'/>
+      </ParallaxLayer>
+
+      {/* <ParallaxLayer offset={3.6} speed={1.2}>
         <Skills />
-      </ParallaxLayer>
-
-      <ParallaxLayer offset={3.6} speed={1.2}>
+      </ParallaxLayer> */}
+      {/* <ParallaxLayer offset={3.6} speed={1.2}>
         <Footer />
-      </ParallaxLayer>
+      </ParallaxLayer> */}
 
       {/* Parallax Circles */}
       <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 0.2 }}>

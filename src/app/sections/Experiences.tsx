@@ -14,7 +14,7 @@ const Experiences = () => {
         {ExperienceInfo.map((item, index) => (
           <div key={index} className={`flex rounded-[3rem] p-14 card-design shadow-lg backdrop-blur-[3.5px]`}> 
 
-            <div className='flex flex-col gap-4 w-[120%] '>
+            <div className='flex flex-col gap-8 w-[120%] '>
               <p className='font-header5-bold text-pink w-fit text-pink-glow leading-none'>{item.company}</p>
               <div className="flex justify-between align-center">
                 <p className='font-paragraph-bigger text-white rop-shadow-[0_0_10px_#F1A1CC] w-fit leading-none'>{item.position}</p>
