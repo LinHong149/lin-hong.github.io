@@ -13,14 +13,17 @@ export default function Home() {
   return (
     <Parallax className='flex min-h-screen flex-col items-center justify-between gap-96 relative overflow-hidden' 
       pages={7.1} style={{ top: '0', left: '0' }}>
-      <ParallaxLayer offset={0} speed={0.5}>
+      <ParallaxLayer offset={0}>
+        <Nav></Nav>
+      </ParallaxLayer>
+      {/* <ParallaxLayer offset={0} speed={0.5}>
         <div className="flex flex-col items-center justify-between min-h-screen">
           <div className="w-screen h-screen relative flex flex-col">
             <Nav />
             <Hero />
           </div>
         </div>
-      </ParallaxLayer>
+      </ParallaxLayer> */}
 
       <ParallaxLayer offset={0.99} speed={1}>
         <div className='bg-none w-full h-[34vh]'></div>
@@ -31,22 +34,18 @@ export default function Home() {
         <Experiences />
       </ParallaxLayer>
 
-      {/* <ParallaxLayer sticky={{start: 2.4, end: 2.9}} speed={2} >
-        <Stats />
-      </ParallaxLayer> */}
-
       <ParallaxLayer sticky={{start: 2.5, end: 5}} speed={2} >
         <AboutMe />
       </ParallaxLayer>
 
       <ParallaxLayer sticky={{start: 3.5, end: 5}}>
-        <Stats number="15" stat="hackatons" rowStart="2" colStart='7'/>
+        <Stats number="15" stat="hackatons" rowStart={2} colStart={10}/>
       </ParallaxLayer>
       <ParallaxLayer sticky={{start: 4, end: 5}}>
-        <Stats number="15" stat="skills" rowStart="3" colStart='1'/>
+        <Stats number="15" stat="skills" rowStart={3} colStart={1}/>
       </ParallaxLayer>
       <ParallaxLayer sticky={{start: 4.5, end: 5}}>
-        <Stats number="15" stat="projects" rowStart="4" colStart='8'/>
+        <Stats number="15" stat="projects" rowStart={4} colStart={9}/>
       </ParallaxLayer>
 
       <ParallaxLayer offset={6} speed={1.2}>
