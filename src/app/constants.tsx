@@ -21,6 +21,15 @@ import VSCode from "src/app/assets/VSCode.png"
 import AndroidStudio from "src/app/assets/AndroidStudio.png"
 import Github from "src/app/assets/Github.png"
 import Postman from "src/app/assets/Postman.png"
+import AprilTags from "src/app/assets/FIRST.png"
+import DMOJ from "src/app/assets/DMOJ.png"
+import Leetcode from "src/app/assets/LeetCode.png"
+import FTCSDK from "src/app/assets/FIRST.png"
+import OnBotJava from "src/app/assets/FIRST.png"
+import Onshape from "src/app/assets/Onshape.png"
+import REVRoboticsHardwareClient from "src/app/assets/REVRobotics.png"
+import Canva from "src/app/assets/Canva.png"
+import Friesens from "src/app/assets/Friesens.png"
 
 export const projectInfo = [
     {
@@ -73,86 +82,288 @@ export const ExperienceInfo = [
         ],
     },
 ]
+
+// export const skillsInfo = [
+//     {
+//         "section": "Frontend",
+//         "skills": [
+//             {
+//                 "name": "CSS",
+//                 "image": CSS,
+//             },
+//             {
+//                 "name": "DaisyUI",
+//                 "image": DaisyUI,
+//             },
+//             {
+//                 "name": "HTML",
+//                 "image": HTML,
+//             },
+//             {
+//                 "name": "Nextjs",
+//                 "image": Nextjs,
+//             },
+//             {
+//                 "name": "React",
+//                 "image": React,
+//             },
+//             {
+//                 "name": "ReactNative",
+//                 "image": ReactNative,
+//             },
+//             {
+//                 "name": "Tailwind",
+//                 "image": Tailwind,
+//             },
+//             {
+//                 "name": "Vitejs",
+//                 "image": Vitejs,
+//             },
+//         ]
+//     },
+//     {
+//         "section": "Backend",
+//         "skills": [
+//             {
+//                 "name": "Flask",
+//                 "image": Flask,
+//             },
+//             {
+//                 "name": "Google cloud",
+//                 "image": GoogleCloud,
+//             },
+//             {
+//                 "name": "Javascript",
+//                 "image": Javascript,
+//             },
+//             {
+//                 "name": "OpenAI", 
+//                 "image": OpenAI,
+//             },
+//         ]
+//     },
+//     {
+//         "section": "Competitive Programming",
+//         "skills": [
+//             {
+//                 "name": "C++",
+//                 "image": Cpp,
+//             },
+//             {
+//                 "name": "DMOJ",
+//                 "image": DMOJ,
+//             },
+//             {
+//                 "name": "Java",
+//                 "image": Java,
+//             },
+//             {
+//                 "name": "Leetcode",
+//                 "image": Leetcode,
+//             },
+//             {
+//                 "name": "Python",
+//                 "image": Python,
+//             },
+//         ]
+//     },
+//     {
+//         "section": "Robotics Programming",
+//         "skills": [
+//             {
+//                 "name": "AprilTags",
+//                 "image": AprilTags,
+//             },
+//             {
+//                 "name": "EasyOpenCV",
+//                 "image": EasyOpenCV,
+//             },
+//             {
+//                 "name": "FTC SDK",
+//                 "image": FTCSDK,
+//             },
+//             {
+//                 "name": "OnBotJava",
+//                 "image": OnBotJava,
+//             },
+//             {
+//                 "name": "Onshape",
+//                 "image": Onshape,
+//             },
+//             {
+//                 "name": "REV Robotics Hardware Client",
+//                 "image": REVRoboticsHardwareClient,
+//             },
+//             {
+//                 "name": "Roadrunner",
+//                 "image": Roadrunner,
+//             },
+//             {
+//                 "name": "TensorFlow",
+//                 "image": TensorFlow,
+//             },
+//         ]
+//     },
+//     {
+//         "section": "UI/UX Designing",
+//         "skills": [
+//             {
+//                 "name": "Adobe Photoshop",
+//                 "image": Photoshop,
+//             },
+//             {
+//                 "name": "Canva",
+//                 "image": Canva,
+//             },
+//             {
+//                 "name": "Figma",
+//                 "image": Figma,
+//             },
+//             {
+//                 "name": "Friesens",
+//                 "image": Friesens,
+//             },
+//         ]
+//     },
+//     {
+//         "section": "Programming Tools",
+//         "skills": [
+//             {
+//                 "name": "Android Studio",
+//                 "image": AndroidStudio,
+//             },
+//             {
+//                 "name": "Github",
+//                 "image": Github,
+//             },
+//             {
+//                 "name": "Postman",
+//                 "image": Postman,
+//             },
+//             {
+//                 "name": "Visual Studio Code",
+//                 "image": VSCode,
+//             },
+//         ]
+//     }
+// ]
+
 export const skillsInfo = [
-    {
-        "name": "React",
-        "image": React,
-    },
-    {
-        "name": "HTML",
-        "image": HTML,
-    },
     {
         "name": "CSS",
         "image": CSS,
-    },
-    {
-        "name": "Javascript",
-        "image": Javascript,
     },
     {
         "name": "DaisyUI",
         "image": DaisyUI,
     },
     {
+        "name": "HTML",
+        "image": HTML,
+    },
+    {
+        "name": "Next.js",
+        "image": Nextjs,
+    },
+    {
+        "name": "React",
+        "image": React,
+    },
+    {
+        "name": "React Native",
+        "image": React,
+    },
+    {
         "name": "Tailwind",
         "image": Tailwind,
     },
     {
-        "name": "Nextjs",
-        "image": Nextjs,
-    },
-    {
-        "name": "Vitejs",
+        "name": "Vite.js",
         "image": Vitejs,
-    },
-    {
-        "name": "Python",
-        "image": Python,
-    },
-    {
-        "name": "C++",
-        "image": Cpp,
-    },
-    {
-        "name": "Java",
-        "image": Java,
-    },
-    {
-        "name": "Google cloud",
-        "image": GoogleCloud,
-    },
-    {
-        "name": "OpenAI", 
-        "image": OpenAI,
     },
     {
         "name": "Flask",
         "image": Flask,
     },
     {
-        "name": "Figma",
-        "image": Figma,
+        "name": "Google Cloud",
+        "image": GoogleCloud,
     },
     {
-        "name": "Adobe Photoshop",
-        "image": Photoshop,
+        "name": "Javascript",
+        "image": Javascript,
     },
     {
-        "name": "TensorFlow",
-        "image": TensorFlow,
+        "name": "OpenAI", 
+        "image": OpenAI,
+    },
+    {
+        "name": "C++",
+        "image": Cpp,
+    },
+    {
+        "name": "DMOJ",
+        "image": DMOJ,
+    },
+    {
+        "name": "Java",
+        "image": Java,
+    },
+    {
+        "name": "Leetcode",
+        "image": Leetcode,
+    },
+    {
+        "name": "Python",
+        "image": Python,
+    },
+    {
+        "name": "AprilTags",
+        "image": AprilTags,
     },
     {
         "name": "EasyOpenCV",
         "image": EasyOpenCV,
     },
     {
+        "name": "FTC SDK",
+        "image": FTCSDK,
+    },
+    {
+        "name": "OnBotJava",
+        "image": OnBotJava,
+    },
+    {
+        "name": "Onshape",
+        "image": Onshape,
+    },
+    {
+        "name": "REV Robotics Hardware Client",
+        "image": REVRoboticsHardwareClient,
+    },
+    {
         "name": "Roadrunner",
         "image": Roadrunner,
     },
     {
-        "name": "Visual Studio Code",
-        "image": VSCode,
+        "name": "TensorFlow",
+        "image": TensorFlow,
+    },
+    {
+        "name": "Adobe Photoshop",
+        "image": Photoshop,
+    },
+    {
+        "name": "Canva",
+        "image": Canva,
+    },
+    {
+        "name": "Figma",
+        "image": Figma,
+    },
+    {
+        "name": "Friesens",
+        "image": Friesens,
     },
     {
         "name": "Android Studio",
@@ -166,4 +377,8 @@ export const skillsInfo = [
         "name": "Postman",
         "image": Postman,
     },
+    {
+        "name": "Visual Studio Code",
+        "image": VSCode,
+    }
 ]

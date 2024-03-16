@@ -4,12 +4,17 @@ import Test from "src/app/assets/ImageTest.png"
 
 const Skills = () => {
   return (
-    <div className="px-parent border grid grid-cols-6 gap-8 ">
+    <div className="px-parent gap-8 flex flex-wrap">
+      <p className="w-full text-center font-header3-bold text-gradient-white-black">My Skillset</p>
+      <div className="flex w-full h-min flex-wrap h-[52rem] justify-center">
         {skillsInfo.map(({name, image}) => (
-          <div className="flex items-center justify-center p-4 w-48 border-1 border-white bg-white bg-opacity-20 shadow-xl backdrop-filter backdrop-blur-sm rounded-3xl border border-white border-opacity-20 aspect-square w-40 h-40">
-            <Image key={name} src={image} alt={name} width="500" height="500" className="w-full h-full object-contain"></Image>
+          <div className="flex items-center gap-4 mx-10 ">
+            <Image src={image} alt={name} width={60} height={60}
+              className="w-16 aspect-square object-contain"></Image>
+            <p className="font-lable-bigger opacity-50">{name}</p>
           </div>
         ))}
+      </div>
     </div>
   )
 }

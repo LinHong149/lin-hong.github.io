@@ -12,7 +12,7 @@ import Footer from "./sections/Footer";
 export default function Home() {
   return (
     <Parallax className='flex min-h-screen flex-col items-center justify-between gap-96 relative overflow-hidden' 
-      pages={10} style={{ top: '0', left: '0' }}>
+      pages={7.1} style={{ top: '0', left: '0' }}>
       <ParallaxLayer offset={0} speed={0.5}>
         <div className="flex flex-col items-center justify-between min-h-screen">
           <div className="w-screen h-screen relative flex flex-col">
@@ -49,12 +49,12 @@ export default function Home() {
         <Stats number="15" stat="projects" rowStart="4" colStart='8'/>
       </ParallaxLayer>
 
-      {/* <ParallaxLayer offset={3.6} speed={1.2}>
+      <ParallaxLayer offset={6} speed={1.2}>
         <Skills />
-      </ParallaxLayer> */}
-      {/* <ParallaxLayer offset={3.6} speed={1.2}>
+      </ParallaxLayer>
+      <ParallaxLayer offset={6.7} speed={1.2}>
         <Footer />
-      </ParallaxLayer> */}
+      </ParallaxLayer>
 
       {/* Parallax Circles */}
       <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 0.2 }}>
