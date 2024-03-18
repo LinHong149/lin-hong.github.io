@@ -1,4 +1,5 @@
 'use client'
+import { useState, useRef } from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
@@ -10,25 +11,35 @@ import Skills from "./sections/Skills";
 import Footer from "./sections/Footer";
 
 export default function Home() {
+  // const parallaxRef = useRef(null);
+  // const [isHorizontal, setIsHorizontal] = useState(false)
+
+  // const changeToHorizontal = () => {
+  //   setIsHorizontal(true)
+  //   console.log("is true")
+  // }
+  // const changeToVertical = () => {
+  //   setIsHorizontal(false)
+  //   console.log("is false")
+  // }
+
   return (
-    <Parallax className='flex min-h-screen flex-col items-center justify-between gap-96 relative overflow-hidden' 
-      pages={7.1} style={{ top: '0', left: '0' }}>
-      <ParallaxLayer offset={0}>
-        <Nav></Nav>
-      </ParallaxLayer>
-      {/* <ParallaxLayer offset={0} speed={0.5}>
+    <Parallax  className='flex min-h-screen flex-col items-center justify-between gap-96 relative ' 
+      pages={7.1} style={{ top: '0', left: '0' }} >
+      <ParallaxLayer offset={0} speed={0.5}>
         <div className="flex flex-col items-center justify-between min-h-screen">
           <div className="w-screen h-screen relative flex flex-col">
             <Nav />
             <Hero />
           </div>
         </div>
-      </ParallaxLayer> */}
+      </ParallaxLayer>
+
 
       <ParallaxLayer offset={0.99} speed={1}>
-        <div className='bg-none w-full h-[34vh]'></div>
-        <Projects />
+        <Projects/>
       </ParallaxLayer>
+
 
       <ParallaxLayer offset={1.9} speed={1.2}>
         <Experiences />

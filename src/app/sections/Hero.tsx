@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
 import { AnchorButton, SolidButton } from "../components/Buttons";
+// import ResumePDF from "../assets/Resume.pdf"
 
 
 const Hero = () => {
@@ -24,6 +25,7 @@ const Hero = () => {
       </div>
 
       <div className="m-0 p-0 flex justify-center">
+        {/* <a href = {ResumePDF} target = "_blank">Download Pdf</a> */}
         <AnchorButton link="" contentStart="PROJ" contentEnd="ECTS" content={""}></AnchorButton>
       </div>
     </div>

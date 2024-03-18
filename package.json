@@ -12,6 +12,7 @@
     "@react-spring/parallax": "^9.7.3",
     "framer-motion": "^10.16.16",
     "next": "14.0.3",
+    "pspdfkit": "^2024.2.0",
     "react": "^18",
     "react-dom": "^18"
   },
