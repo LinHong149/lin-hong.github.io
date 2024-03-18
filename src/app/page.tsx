@@ -36,27 +36,29 @@ export default function Home() {
       </ParallaxLayer>
 
 
-      <ParallaxLayer offset={0.99} speed={1}>
+      {/* <ParallaxLayer offset={0.99} speed={1}>
         <Projects/>
-      </ParallaxLayer>
+      </ParallaxLayer> */}
 
 
-      <ParallaxLayer offset={1.9} speed={1.2}>
+      <ParallaxLayer offset={0.9} speed={1.2}>
+        <div className='h-[30rem]'></div>
         <Experiences />
       </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 2.5, end: 5}} speed={2} >
+      <ParallaxLayer sticky={{start: 1.9, end: 5}} speed={2} >
+        <div className='h-[10rem]'></div>
         <AboutMe />
       </ParallaxLayer>
 
+      <ParallaxLayer sticky={{start: 3, end: 5}}>
+        <Stats number="14" stat="hackatons" rowStart={2} colStart={10}/>
+      </ParallaxLayer>
       <ParallaxLayer sticky={{start: 3.5, end: 5}}>
-        <Stats number="15" stat="hackatons" rowStart={2} colStart={10}/>
+        <Stats number="33" stat="skills" rowStart={3} colStart={1}/>
       </ParallaxLayer>
       <ParallaxLayer sticky={{start: 4, end: 5}}>
-        <Stats number="15" stat="skills" rowStart={3} colStart={1}/>
-      </ParallaxLayer>
-      <ParallaxLayer sticky={{start: 4.5, end: 5}}>
-        <Stats number="15" stat="projects" rowStart={4} colStart={9}/>
+        <Stats number="18" stat="projects" rowStart={4} colStart={9}/>
       </ParallaxLayer>
 
       <ParallaxLayer offset={6} speed={1.2}>

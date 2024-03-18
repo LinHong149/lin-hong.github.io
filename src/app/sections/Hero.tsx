@@ -24,10 +24,9 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="m-0 p-0 flex justify-center">
-        {/* <a href = {ResumePDF} target = "_blank">Download Pdf</a> */}
+      {/* <div className="m-0 p-0 flex justify-center">
         <AnchorButton link="" contentStart="PROJ" contentEnd="ECTS" content={""}></AnchorButton>
-      </div>
+      </div> */}
     </div>
   );
 };

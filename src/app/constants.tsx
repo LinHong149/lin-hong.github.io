@@ -206,33 +206,36 @@ export const projectInfo = [
 
 export const ExperienceInfo = [
     {
-        "company": "Robotics Co-captain",
-        "position": "position",
+        "company": "Robotics Club",
+        "position": "Programming Lead & Co-captain",
         "date": "Sept 2022 - Present",
-        "location": "Toronto, ON",
+        "location": "Scarborough, ON",
         "experiences": [
-            "l",
-            "e",
+            "Spearheaded the development and implementation of object detection and autonomous navigation systems using Java, increasing robot effciency by 30%.",
+            "Led a team of 13 in robotics design and programming, dedicating over 18 hours weekly. Employed a fexible leadership style, which fostered a creative and autonomous environment.",
+            "Co-organized 9 STEM events, boosting tech engagement among students by 40%.",
+            "Achieved a top 10 finish in Ontario at the FIRST Tech Challenge and won 3 awards."
         ],
     },
     {
-        "company": "Robotics",
-        "position": "position",
-        "date": "Sept 2022 - Present",
-        "location": "Toronto, ON",
+        "company": "Computer Science Club",
+        "position": "Hackathon Lead Senior Executive",
+        "date": "Sept 2021 - Present",
+        "location": "Scarborough, ON",
         "experiences": [
-            "l",
-            "e",
+            "Founded annual school hackathon, drawing 50+ entrants in its first year.",
+            "Conducted comprehensive workshops on Python and Github basics.",
+            "Led a panel to evaluate 13 projects, implementing a constructive feedback model that nurtured creativity and learning."
         ],
     },
     {
-        "company": "Robotics",
-        "position": "position",
-        "date": "Sept 2022 - Present",
+        "company": "FIRST LEGO League Summer Camp",
+        "position": "Youth Robotics Instructor",
+        "date": "July 2023",
         "location": "Toronto, ON",
         "experiences": [
-            "l",
-            "e",
+            "Mentored 100+ grade 4-8 students, elevating their skills to competition level through a comprehensive 124-hour curriculum, in collaboration with a dedicated team of 9 colleagues.",
+            "Orchestrated a large-scale mock FLL competition and delivered 5 targeted lessons, significantly impacting 300+ attendees and facilitating the participation of 43 student-led robotics teams.",
         ],
     },
 ]
