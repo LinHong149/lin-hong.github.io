@@ -37,82 +37,89 @@ body {
 }
 
 /* Bolded headers */
-.font-header1-bold {
+/* .font-header1-bold {
   font-weight: bold;
   font-size: 9rem;
+} */
+.font-header1-bold {
+  font-weight: bold;
+  font-size: 7.5rem;
 }
 .font-header2-bold {
   font-weight: bold;
-  font-size: 7rem;
+  font-size: 6.5rem;
 }
 .font-header3-bold {
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 5.5rem;
 }
 .font-header4-bold {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .font-header5-bold {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .font-header6-bold {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .font-header7-bold {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 /* Normal Headers */
-.font-header1 {
+/* .font-header1 {
   font-size: 8rem;
+} */
+.font-header1 {
+  font-size: 7.5rem;
 }
 .font-header2 {
-  font-size: 7rem;
+  font-size: 6.5rem;
 }
 .font-header3 {
-  font-size: 6rem;
+  font-size: 5.5rem;
 }
 .font-header4 {
-  font-size: 5rem;
-}
-.font-header5 {
   font-size: 4rem;
 }
+.font-header5 {
+  font-size: 3.5rem;
+}
 .font-header6 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .font-header7 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 /* Paragraph */
 .font-paragraph-bigger {
-  font-size: 2rem;
-}
-.font-paragraph {
   font-size: 1.5rem;
 }
-.font-paragraph-smaller {
+.font-paragraph {
   font-size: 1.25rem;
 }
-.font-paragraph-tiny {
+.font-paragraph-smaller {
   font-size: 1rem;
+}
+.font-paragraph-tiny {
+  font-size: 0.75rem;
 }
 /* Special */
 .font-link {
   text-decoration: underline;
   color: "#F6F6F8";
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .font-lable-bigger {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .font-lable {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 

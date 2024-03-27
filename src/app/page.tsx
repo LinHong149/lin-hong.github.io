@@ -3,7 +3,6 @@ import { useState, useRef, Component, useEffect } from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 
-import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Stats from "./components/Stats";
@@ -26,7 +25,7 @@ export default function Home() {
 
 
   return (
-    <Parallax ref={parallaxRef} className='flex min-h-screen flex-col items-center justify-between gap-96 relative ' 
+    <Parallax ref={parallaxRef} className='flex min-h-screen flex-col items-center justify-between gap-96 relative bg-black' 
       pages={7.1} style={{ top: '0', left: '0' }} >
 
 
@@ -120,9 +119,7 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
               </label> */}
               <div className="navbar-end">
-                {/* <iframe src="./assets/Resume.pdf" /> */}
                 <a href="resume.pdf" target="_blank" rel="noopener noreferrer" className="btn bg-pink text-black font-lable cursor-pointer hover:bg-[#de87b7] hover:text- pt-1 ">RESUME</a>
-                <div></div>
               </div>
             </div>
           </div>
@@ -143,7 +140,7 @@ export default function Home() {
       </ParallaxLayer>
 
       <ParallaxLayer sticky={{start: 1.9, end: 4.9}} speed={2} >
-        <div className='h-[3rem]'></div>
+        {/* <div className='h-[3rem]'></div> */}
         <AboutMe />
       </ParallaxLayer>
 
@@ -160,7 +157,7 @@ export default function Home() {
       <ParallaxLayer offset={6} speed={0.9}>
         <Skills />
       </ParallaxLayer>
-      <ParallaxLayer offset={6.7} speed={1.2}>
+      <ParallaxLayer offset={6.6} speed={1.2}>
         <Footer />
       </ParallaxLayer>
 
