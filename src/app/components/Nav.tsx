@@ -11,7 +11,7 @@ const Nav = () => {
             </div>
             <div className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow font-lable bg-base-100 rounded-box w-52">
               <li><a>ABOUT</a></li>
-              <li><a>PROJECTS</a></li>
+              {/* <li><a>PROJECTS</a></li> */}
               <li><a>EXPERIENCES</a></li>
               <li><a>SKILLS</a></li>
               <li><a>CONTACT</a></li>
@@ -22,7 +22,7 @@ const Nav = () => {
         <div className="navbar-center hidden lg:flex">
           <div className="menu menu-horizontal px-1 font-lable [&>*]:px-4 ">
             <li><a>ABOUT</a></li>
-            <li><a>PROJECTS</a></li>
+            {/* <li><a>PROJECTS</a></li> */}
             <li><a>EXPERIENCES</a></li>
             <li><a>SKILLS</a></li>
             <li><a>CONTACT</a></li>
