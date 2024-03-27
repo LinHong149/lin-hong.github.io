@@ -229,7 +229,7 @@ export const ExperienceInfo = [
         ],
     },
     {
-        "company": "FIRST LEGO League Summer Camp",
+        "company": "FLL Robotics Summer Camp",
         "position": "Youth Robotics Instructor",
         "date": "July 2023",
         "location": "Toronto, ON",

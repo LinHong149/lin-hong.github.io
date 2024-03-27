@@ -139,8 +139,7 @@ export default function Home() {
         <Experiences />
       </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 1.9, end: 4.9}} speed={2} >
-        {/* <div className='h-[3rem]'></div> */}
+      <ParallaxLayer sticky={{start: 2, end: 4.9}} speed={2} >
         <AboutMe />
       </ParallaxLayer>
 

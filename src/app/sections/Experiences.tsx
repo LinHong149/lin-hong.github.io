@@ -8,7 +8,7 @@ const Experiences = () => {
           <span className="font-header3-bold text-gradient-white-black">Experiences</span>
       </h1>
 
-      <div className='grid grid-cols-2 gap-20 w-full'>
+      <div className='grid grid-cols-2 gap-10 w-full'>
         
 
         {ExperienceInfo.map((item, index) => (
